@@ -1,5 +1,5 @@
 # PPC-Link-Shortener
-Simple 'local' link shortener service based on Firebase dynamic links API created as a 'replacement' of goo.gl, intended for a 'local' use only.
+Simple 'local' link shortener service (based on Firebase Dynamic Links API) created as a 'replacement' of goo.gl, intended for a 'local' use only.
 
 Project was created using the following:
 * [Bootstrap 4](https://getbootstrap.com/)
