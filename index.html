@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>PPC Link Shortener</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <i class="fas fa-hotel"></i>&nbsp; PPC Link Shortener</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.polytechnic.poltava.ua/" target="_blank">
+                            <i class="fas fa-home"></i>&nbsp;
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://plus.google.com/u/0/communities/102190213699221798697" target="_blank"><i class="fab fa-google-plus-g"></i>&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#contactModal"><i class="far fa-address-book"></i>&nbsp;</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#aboutModal"><i class="fas fa-info"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About PPC Link Shortener</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Just a little <strong>link shortener 'service'</strong> created as a 'replacement' of <em>goo.gl</em>, intended for a 'local' use only.</p>
+                    <p>
+                        Project was created using the following:
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="https://getbootstrap.com/" target="_blank"> <i class="fas fa-link"></i>&nbsp;Bootstrap 4</a></li>
+                            <li class="list-group-item"><a href="https://startbootstrap.com/template-overviews/bare/" target="_blank"><i class="fas fa-link"></i>&nbsp;Bare Bootstrap template</a></li>
+                            <li class="list-group-item"><a href="https://jquery.com/" target="_blank"><i class="fas fa-link"></i>&nbsp;jQuery</a></li>
+                            <li class="list-group-item"><a href="https://github.com/jeromeetienne/jquery-qrcode" target="_blank"><i class="fas fa-link"></i>&nbsp;jQuery QRcode</a></li>
+                            <li class="list-group-item"><a href="https://dexie.org/" target="_blank"><i class="fas fa-link"></i>&nbsp;Dexie.js</a></li>
+                            <li class="list-group-item"><a href="https://firebase.google.com/docs/dynamic-links/rest" target="_blank"><i class="fas fa-link"></i>&nbsp;Firebase Dynamic Links REST API</a></li>
+                            <li class="list-group-item"><a href="https://fontawesome.com/" target="_blank"><i class="fas fa-link"></i>&nbsp;Font Awesome</a></li>
+                            <li class="list-group-item"><a href="https://clipboardjs.com/" target="_blank"><i class="fas fa-link"></i>&nbsp;clipboard.js</a></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <small>&copy;2018 Alexander Babich</small>&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PPC Contacts</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Polytechnical College</strong> by National Technical University 'Kharkiv Polytechnical Institute'
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fas fa-map-marker-alt"></i>&nbsp;<a href="https://www.google.com/maps/place/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%B8%D0%B9+%D0%BA%D0%BE%D0%BB%D0%B5%D0%B4%D0%B6/@49.5877802,34.5408567,17z/data=!4m12!1m6!3m5!1s0x40d82f59e9883d53:0x91f5c28b303238bf!2z0J_QvtC70YLQsNCy0YHRjNC60LjQuSDQv9C-0LvRltGC0LXRhdC90ZbRh9C90LjQuSDQutC-0LvQtdC00LY!8m2!3d49.5877802!4d34.5430454!3m4!1s0x40d82f59e9883d53:0x91f5c28b303238bf!8m2!3d49.5877802!4d34.5430454" target="_blank">36000, Pushkin Str, 83A, Poltava, Ukraine</a></li>
+                            <li class="list-group-item"><i class="fas fa-phone-volume"></i>&nbsp;<a href="tel:+380532607452" target="_blank">+38(0532) 60-74-52</a>, <a href="tel:+380532607458" target="_blank">+38(0532) 60-74-58</a></li>
+                            <li class="list-group-item"><i class="far fa-envelope"></i>&nbsp;<a href="mailto:info@polytechnic.poltava.ua" target="_blank">info@polytechnic.poltava.ua</a></li>
+                            <li class="list-group-item"><i class="fas fa-globe-asia"></i>&nbsp;<a href="http://polytechnic.poltava.ua" target="_blank">polytechnic.poltava.ua</a></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="mt-5">Use this page to short links or unshort they back</h1>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100">
+                            <br>
+                            <a href="#"><img id="comp-icon" class="img-thumbnail" src="./Images/compress.png" alt=""></a>
+                            <div id="qrcode"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a id="resultLink" href="#">Short Link</a>
+                                </h4>
+                                <p class="card-text">
+                                    <br>
+                                    <input type="text" class="form-control" id="lurl" placeholder="Enter full link">
+                                    <br>
+                                    <button id="createl" type="button" class="btn btn-primary" onclick="createLink();">Shorten</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100">
+                            <br>
+                            <a href="#"><img class="img-thumbnail" src="./Images/uncompress.png" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a id="deresult" href="#">Unshort Link</a>
+                                </h4>
+                                <p class="card-text">
+                                    <br>
+                                    <input type="text" class="form-control" id="surl" placeholder="Enter short link">
+                                    <br>
+                                    <button id="decreatel" type="button" class="btn btn-primary" onclick="decreateLink();">Unshorten</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="tableName" class="mt-5">Available links:</h2>
+                    <div class="row">
+                        <!-- Table -->
+                        <ul id="ltable" class="list-group list-group-flush text-left"></ul>
+                        <!-- https://www.w3schools.com/howto/howto_js_copy_clipboard.asp -->
+
+                        <button id="lnksCopy" data-trigger='manual' type="button" class="btn btn-primary btn-block" data-clipboard-target="#ltable" title="Successfully copied!"><i class="far fa-copy"></i>&nbsp;Copy to Clipboard</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./qrcode/jquery.qrcode.min.js"></script>
+        <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+        <script src="clip/clipboard.min.js"></script>        
+        
+
+
+        <script>
+            var key = "Ваш ключ к проекту Firebase. Подробнее - https://firebase.google.com/docs/dynamic-links/rest";
+
+            var db = new Dexie("links_DB");
+            db.version(1).stores({
+                links: 'short,full'
+            });
+
+            function createLink() {
+                $('#createl').html('<i class="fa fa-spinner fa-spin"></i>&nbsp;Shorten');
+                var lurl = $('#lurl').val();
+
+                var data = JSON.stringify({
+                    "dynamicLinkInfo": {
+                        "dynamicLinkDomain": "college.page.link",
+                        "link": lurl
+                    },
+                    "suffix": {
+                        "option": "SHORT"
+                    }
+                });
+
+                var xhr = new XMLHttpRequest();
+                //xhr.withCredentials = true;
+
+                xhr.addEventListener("readystatechange", function () {
+                    if (this.readyState === this.DONE) {
+                        console.log(this.responseText);
+                        var newLink = (JSON.parse(this.responseText)).shortLink;
+                        $('#resultLink').text(newLink);
+                        $('#resultLink').attr("href", newLink);
+                        $('#resultLink').attr("target", "_blank");
+                        $('#comp-icon').hide();
+                        $('#qrcode').empty();
+                        $('#qrcode').qrcode({
+                            width: 200,
+                            height: 200,
+                            text: newLink
+                        });                        
+
+                        db.links.put({
+                            short: newLink,
+                            full: lurl
+                        }).then(function () {
+                            return db.links.get(newLink);
+                        }).then(function (link) {
+                            //alert(link.full+' = '+link.short);
+                        }).catch(function (error) {
+                            alert(error);
+                        });
+                        listAllLinks();
+                        $('#createl').html('Shorten');
+                    }
+                });
+
+                xhr.open("POST",
+                    "https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=" + key
+                );
+                xhr.setRequestHeader("content-type", "application/json");
+
+                xhr.send(data);
+
+            }
+
+            function listAllLinks() {
+                db.links.count(function (count) {
+                    $('#tableName').html('Available links <span class="badge badge-primary">' + count + '</span>');
+                });
+
+                db.links.each(link => $('#ltable').append('<li class="list-group-item"><em>' + link.full + '</em> was shotened to <em>' + link.short + '</em></li>'));
+            }
+
+
+            $(document).ready(function () {
+
+                $('#lnksCopy').tooltip('hide');
+                $('#lnksCopy').mouseleave(function () {
+                    $('#lnksCopy').tooltip('hide');
+                });
+                listAllLinks();
+                var clipboard = new ClipboardJS('.btn');
+                clipboard.on('success', function (e) {
+                    //console.info('Action:', e.action);
+                    //console.info('Text:', e.text);
+                    //console.info('Trigger:', e.trigger);
+
+                    e.clearSelection();
+                    $('#lnksCopy').attr('title','Successfully copied!');
+                    $('#lnksCopy').tooltip('show');
+                //    $('#ltable').blur();
+                });
+
+                clipboard.on('error', function (e) {
+                    //console.error('Action:', e.action);
+                    //console.error('Trigger:', e.trigger);                    
+                    $('#lnksCopy').attr('title', 'Error, not copied!');
+                    $('#lnksCopy').tooltip('show');
+                });                
+            });
+
+            function decreateLink() {
+                $('#decreatel').html('<i class="fa fa-spinner fa-spin"></i>&nbsp;Unshorten');
+                var surl = $('#surl').val();
+                db.links.get(surl).then(function (link) {
+                    $('#deresult').text(link.full);
+                    $('#deresult').attr("href", link.full);
+                    $('#deresult').attr("target", "_blank");
+                    $('#decreatel').html('Unshorten');
+                });
+            }                       
+
+        </script>
+</body>
+</html>
